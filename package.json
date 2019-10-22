@@ -1,0 +1,67 @@
+{
+  "name": "robot_js",
+  "version": "1.0.0",
+  "description": "* RoboFight_3JS",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "autoprefixer": "^9.6.5",
+    "babel-loader": "^8.0.6",
+    "bufferutil": "4.0.1",
+    "concurrently": "^5.0.0",
+    "css-loader": "^3.2.0",
+    "express": "4.17.1",
+    "fibers": "^4.0.1",
+    "johnny-five": "^1.3.1",
+    "keypress": "^0.2.1",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node": "10.16.3",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "sass": "^1.23.0",
+    "sass-loader": "^8.0.0",
+    "socket.io": "2.3.0",
+    "stats.js": "^0.17.0",
+    "style-loader": "^1.0.0",
+    "three": "^0.109.0",
+    "utf-8-validate": "5.0.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2",
+    "webpack-merge": "^4.2.2",
+    "ws": "7.1.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "10.16.3"
+  },
+  "scripts": {
+    "start": "node app2.js",
+    "web": "node app2.js",
+    "webpack:watch": "webpack --watch --config webpack.dev.js",
+    "webpack:build": "webpack --config webpack.prod.js  --optimize-minimize",
+    "build": "webpack"
+  },
+  "heroku-run-build-script": true,
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonathanVanDyke/Robot_Js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonathanVanDyke/Robot_Js/issues"
+  },
+  "homepage": "https://github.com/JonathanVanDyke/Robot_Js#readme"
+}
